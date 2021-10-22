@@ -32,6 +32,8 @@ function App() {
       console.log(data)
     })
     
+    nameRef.current.value = '';
+    emailRef.current.value = '';
     e.preventDefault()
   }
   return (
